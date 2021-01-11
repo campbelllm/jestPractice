@@ -1,5 +1,9 @@
-function subtract(a, b) {
+function sum(a, b) {
   return a + b
 }
 
-module.exports = subtract
+function helper() {
+  console.log('Helper')
+}
+
+module.exports = sum
